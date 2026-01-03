@@ -14,65 +14,70 @@
     "hero": {
       "headline": "Building robots, products, and games,",
       "headlineHighlight": "one prototype at a time",
-      "subtext": "From 3D-printed lamps and keychains to robot kits, experimental robots, and top-down games — we explore how design, technology, and creativity intersect.",
+      "subtext": "From physical products and modular kits to experimental robotics, interactive games, and applied AI, Orpus Labs explores where design, engineering, and intelligence converge.",
       "primaryCTA": "Explore Products",
       "primaryCTALink": "/products",
       "secondaryCTA": "View Lab →",
       "secondaryCTALink": "/lab"
     },
     "overview": {
-      "paragraph1": "Orpus Labs is a homegrown research and engineering studio focused on building intelligent robotics and creative products. We combine mechanical design with AI-driven cognition, while also creating accessible 3D-printed goods and developing games.",
-      "paragraph2": "Our work spans from simple 3D-printed products like lamps and keychains, to experimental robot kits, full robotic systems, and interactive game experiences. We experiment, prototype, break things, fix them, and repeat.",
-      "paragraph3": "Whether it's a functional lamp for your desk, a robot kit to learn with, or a top-down game in Unreal Engine, each project explores how design, technology, and creativity intersect. We are early in the journey, and this is a space for curiosity, persistence, and hands-on creation.",
-      "highlight": "From everyday products to advanced robotics — we build across the spectrum."
+      "paragraph1": "Orpus Labs is a homegrown research and engineering studio focused on building intelligent robotics, modular systems, and creative products. We blend mechanical design with AI-driven cognition to explore how machines can move, perceive, and respond.",
+      "paragraph2": "Our work spans physical products and learning kits, experimental robots, full robotic systems, interactive digital experiences, and applied AI solutions. We prototype hands-on, testing ideas, breaking things, refining designs, and iterating continuously.",
+      "paragraph3": "Whether it’s a thoughtfully designed everyday object, a robot kit to learn with, an experimental machine, or a game built to explore interaction and systems, every project reflects our belief in curiosity, persistence, and making things real.",
+      "highlight": "From everyday builds to advanced robotics, we work across the physical, digital, and intelligent spectrum."
     },
     "sectors": {
-      "title": "Sectors We Work In",
-      "subtitle": "From everyday 3D-printed products to advanced robotics and games — we build across the spectrum.",
+      "title": "What We Build",
+      "subtitle": "From physical products to advanced robotics, interactive games, and AI-driven systems, we build across the spectrum.",
+      "backgroundImage": "/assets/images/2.svg",
+      "backgroundImageOpacity": 30,
       "items": [
         {
-          "name": "3D Models & Products",
-          "description": "Functional and decorative 3D-printed products including lamps, keychains, and simple prints designed for everyday use.",
+          "name": "3D Printed Products",
+          "description": "Thoughtfully designed functional and decorative products, created through accessible 3D printing and focused on everyday utility and form.",
           "status": "Available",
           "image": "/assets/images/sectors/3d-models.jpg",
           "imageAlt": "3D Models and Products"
         },
         {
           "name": "Games",
-          "description": "Top-down game development in Unreal Engine, exploring interactive experiences and gameplay mechanics.",
+          "description": "Game development using Unreal Engine, exploring interaction, systems design, mechanics, and player experience across digital worlds.",
           "status": "Work In Progress",
           "image": "/assets/images/sectors/games.jpg",
           "imageAlt": "Games"
         },
         {
           "name": "Robot Kits",
-          "description": "Experimental kits for exploring intelligent robotics at home, combining hardware, software, and learning.",
+          "description": "Experimental learning kits designed to explore intelligent robotics through hands-on interaction with hardware, software, and system design.",
           "status": "Work In Progress",
           "image": "/assets/images/sectors/robot-kits.jpg",
           "imageAlt": "Robot Kits"
         },
         {
-          "name": "Robots",
-          "description": "Full robotic systems with perception, reasoning, and action — our focus area for advanced robotics.",
+          "name": "Robotic Systems",
+          "description": "Full robotic systems integrating perception, decision-making, and action, representing our long-term focus on advanced and intelligent robotics.",
           "status": "Future",
           "image": "/assets/images/sectors/robots.jpg",
           "imageAlt": "Robots"
         }
       ],
-      "ctaText": "View all products",
+      "ctaText": "Explore our work",
       "ctaLink": "/products"
     },
     "bridge": {
       "text": "Follow the journey, one build at a time.",
+      "subtext": "From early experiments to working systems.",
       "ctaText": "Explore the lab →",
       "ctaLink": "/lab"
     },
-    "heroImage": "/assets/images/hero-placeholder.jpg",
+    "heroImage": "/assets/images/1.svg",
     "productPreviewImage": "/assets/images/product-preview-placeholder.jpg"
   },
   "products": {
     "title": "Products",
-    "subtitle": "From 3D-printed lamps and keychains to robot kits, robots, and games — each product at its own stage of development."
+    "subtitle": "From 3D-printed lamps and keychains to robot kits, robots, and games — each product at its own stage of development.",
+    "backgroundImage": "/assets/images/3.svg",
+    "backgroundImageOpacity": 13
   },
   "lab": {
     "title": "Lab",
@@ -143,7 +148,7 @@
     }
   },
   "footer": {
-      "description": "A research and engineering studio exploring intelligent robotics, 3D-printed products, and game development through mechanical design, AI, and accessible hardware.",
+      "description": "A research and engineering studio exploring robotics, interactive systems, and physical products through design, AI, and hands-on experimentation.",
     "links": {
       "explore": [
         { "label": "Products", "path": "/products" },

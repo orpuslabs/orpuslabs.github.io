@@ -4,6 +4,9 @@
   "description": "Static build server",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "motion": "^12.23.26",
+    "three": "^0.182.0"
   }
 }
-
