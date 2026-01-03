@@ -2,7 +2,7 @@
 
 This directory contains the static build of the Orpus Labs website, ready to deploy anywhere.
 
-## Structure -
+## Structure
 
 ```
 static-build/
