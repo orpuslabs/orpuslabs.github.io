@@ -1,7 +1,8 @@
 {
   "site": {
     "name": "Orpus Labs",
-    "tagline": "Research & Engineering Studio"
+    "tagline": "Research & Engineering Studio",
+    "logoMark": "O."
   },
   "navigation": [
     { "path": "/", "label": "Home" },
@@ -10,10 +11,19 @@
     { "path": "/about", "label": "About" },
     { "path": "/contact", "label": "Follow" }
   ],
+  "navbar": {
+    "ctaLabel": "Let's Connect",
+    "ctaLink": "/contact"
+  },
   "home": {
     "hero": {
-      "headline": "Building robots, products, and games,",
-      "headlineHighlight": "one prototype at a time",
+      "tagline": "Iterate to Excellence",
+      "headline": {
+        "line1": "Ideation",
+        "line2": "Meets",
+        "line3": "Scalable",
+        "line4": "Reality"
+      },
       "subtext": "From physical products and modular kits to experimental robotics, interactive games, and applied AI, Orpus Labs explores where design, engineering, and intelligence converge.",
       "primaryCTA": "Explore Products",
       "primaryCTALink": "/products",
@@ -21,66 +31,56 @@
       "secondaryCTALink": "/lab"
     },
     "overview": {
-      "paragraph1": "Orpus Labs is a homegrown research and engineering studio focused on building intelligent robotics, modular systems, and creative products. We blend mechanical design with AI-driven cognition to explore how machines can move, perceive, and respond.",
-      "paragraph2": "Our work spans physical products and learning kits, experimental robots, full robotic systems, interactive digital experiences, and applied AI solutions. We prototype hands-on, testing ideas, breaking things, refining designs, and iterating continuously.",
-      "paragraph3": "Whether it’s a thoughtfully designed everyday object, a robot kit to learn with, an experimental machine, or a game built to explore interaction and systems, every project reflects our belief in curiosity, persistence, and making things real.",
-      "highlight": "From everyday builds to advanced robotics, we work across the physical, digital, and intelligent spectrum."
+      "title": "Building things that work.",
+      "subtitle": "One prototype at a time.",
+      "paragraph1": "Orpus Labs is a homegrown research and engineering studio focused on building intelligent robotics, modular systems, and creative products.",
+      "paragraph2": "We blend mechanical design with AI-driven cognition to explore how machines can move, perceive, and respond.",
+      "primaryCTA": "About Us",
+      "primaryCTALink": "/about",
+      "secondaryCTA": "See our work",
+      "secondaryCTALink": "/products"
     },
     "sectors": {
-      "title": "What We Build",
+      "title": "Our",
+      "titleItalic": "Works",
       "subtitle": "From physical products to advanced robotics, interactive games, and AI-driven systems, we build across the spectrum.",
-      "backgroundImage": "/assets/images/2.svg",
-      "backgroundImageOpacity": 30,
       "items": [
         {
           "name": "3D Printed Products",
-          "description": "Thoughtfully designed functional and decorative products, created through accessible 3D printing and focused on everyday utility and form.",
-          "status": "Available",
-          "image": "/assets/images/sectors/3d-models.jpg",
-          "imageAlt": "3D Models and Products"
+          "description": "Thoughtfully designed functional and decorative products, created through accessible 3D printing.",
+          "status": "Available"
         },
         {
           "name": "Games",
-          "description": "Game development using Unreal Engine, exploring interaction, systems design, mechanics, and player experience across digital worlds.",
-          "status": "Work In Progress",
-          "image": "/assets/images/sectors/games.jpg",
-          "imageAlt": "Games"
+          "description": "Game development using Unreal Engine, exploring interaction, systems design, and player experience.",
+          "status": "Work In Progress"
         },
         {
           "name": "Robot Kits",
-          "description": "Experimental learning kits designed to explore intelligent robotics through hands-on interaction with hardware, software, and system design.",
-          "status": "Work In Progress",
-          "image": "/assets/images/sectors/robot-kits.jpg",
-          "imageAlt": "Robot Kits"
+          "description": "Experimental learning kits designed to explore intelligent robotics through hands-on interaction.",
+          "status": "Work In Progress"
         },
         {
           "name": "Robotic Systems",
-          "description": "Full robotic systems integrating perception, decision-making, and action, representing our long-term focus on advanced and intelligent robotics.",
-          "status": "Future",
-          "image": "/assets/images/sectors/robots.jpg",
-          "imageAlt": "Robots"
+          "description": "Full robotic systems integrating perception, decision-making, and action.",
+          "status": "Future"
         }
       ],
       "ctaText": "Explore our work",
       "ctaLink": "/products"
-    },
-    "bridge": {
-      "text": "Follow the journey, one build at a time.",
-      "subtext": "From early experiments to working systems.",
-      "ctaText": "Explore the lab →",
-      "ctaLink": "/lab"
-    },
-    "heroImage": "/assets/images/1.svg",
-    "productPreviewImage": "/assets/images/product-preview-placeholder.jpg"
+    }
   },
   "products": {
-    "title": "Products",
-    "subtitle": "From 3D-printed lamps and keychains to robot kits, robots, and games — each product at its own stage of development.",
-    "backgroundImage": "/assets/images/3.svg",
-    "backgroundImageOpacity": 13
+    "title": "Our",
+    "titleItalic": "Work",
+    "subtitle": "Objects of intent. A rigorous balance of form and function, curated for those who value the thought behind the make.",
+    "backgroundImage": "",
+    "backgroundImageOpacity": 13,
+    "searchPlaceholder": "Search products..."
   },
   "lab": {
-    "title": "Lab",
+    "title": "The",
+    "titleItalic": "Lab",
     "subtitle": "Research and experimentation in robotics, product design, and game development. Here's what we're working on.",
     "approach": {
       "title": "Our Approach",
@@ -91,74 +91,95 @@
   },
   "about": {
     "title": "About",
+    "titleItalic": "Us",
     "subtitle": "A homegrown research and engineering studio exploring intelligent robotics, 3D-printed products, and game development.",
-    "whoWeAre": {
-      "title": "Who We Are",
-      "paragraph1": "Orpus Labs is a small, independent research and engineering studio focused on building intelligent robotics, creating 3D-printed products, and developing games. We integrate mechanical design, large language models, real-time perception, and accessible hardware across our projects.",
-      "paragraph2": "We operate as a hands-on laboratory — experimenting, prototyping, and iterating on everything from simple 3D-printed lamps and keychains to complex robot systems and top-down games in Unreal Engine. Our approach emphasizes 3D-printed design, open-source principles, and modular architectures that others can learn from and build upon.",
-      "paragraph3": "We are early in this journey, and we're building in public. Each prototype, each failure, each small win moves us closer to understanding how to build machines that truly understand and interact with the world."
-    },
-    "team": {
-      "title": "Team",
-      "members": [
-        {
-          "name": "Founder",
-          "role": "Engineer & Researcher",
-          "description": "Building Orpus Labs from the ground up, with a focus on accessible robotics and practical experimentation. Interested in the intersection of AI, mechanical design, and human-robot interaction."
-        }
-      ]
-    },
-    "marketplaces": {
-      "title": "Available On",
-      "places": ["Amazon", "Meesho", "More coming soon"]
-    },
-    "philosophy": {
-      "title": "Philosophy",
-      "paragraph1": "We believe that meaningful progress in robotics requires persistent experimentation, open collaboration, and a focus on accessible technologies. Our work explores how machines can move, perceive, reason, and act — and we share what we learn along the way.",
-      "highlight": "This is not just about building products. It's about understanding the fundamental challenges of intelligent machines and finding practical paths forward, one prototype at a time."
+    "intro": "is a design studio that builds premium products with clarity and purpose.",
+    "values": [
+      {
+        "title": "Curiosity",
+        "desc": "Everything begins with curiosity. We explore ideas by questioning, testing, and learning through making."
+      },
+      {
+        "title": "Making",
+        "desc": "We believe understanding comes from building. Hands-on creation is at the core of how we think, learn, and refine."
+      },
+      {
+        "title": "Intent",
+        "desc": "Every product starts with a reason. Design and engineering choices are guided by purpose, not decoration."
+      },
+      {
+        "title": "Iteration",
+        "desc": "Progress happens in steps. We value iteration, refinement, and the patience to improve things over time."
+      },
+      {
+        "title": "Balance",
+        "desc": "Form and function go together. We aim for products that feel good to use, work reliably, and age well."
+      }
+    ],
+    "footerCTA": {
+      "title": "Playful Ideas.",
+      "subtitle": "Serious Builds.",
+      "primaryCTA": "Get in touch",
+      "primaryCTALink": "/contact",
+      "secondaryCTA": "Our Process",
+      "secondaryCTALink": "/about"
     }
   },
   "contact": {
-    "title": "Follow",
+    "title": "Get in",
+    "titleItalic": "Touch",
     "subtitle": "Connect with us and follow our journey building robots, 3D-printed products, and games.",
     "social": [
       {
-        "name": "GitHub",
-        "description": "View our open-source projects and contributions",
-        "url": "#",
-        "icon": "github"
+        "name": "Instagram",
+        "description": "See our builds and prototypes in action",
+        "url": "#"
       },
       {
         "name": "Twitter",
         "description": "Follow updates and behind-the-scenes work",
-        "url": "#",
-        "icon": "twitter"
+        "url": "#"
       },
       {
-        "name": "Instagram",
-        "description": "See our builds and prototypes in action",
-        "url": "#",
-        "icon": "instagram"
+        "name": "GitHub",
+        "description": "View our open-source projects and contributions",
+        "url": "#"
       }
     ],
     "email": {
-      "title": "Get in Touch",
+      "title": "Direct Contact",
       "description": "For inquiries, collaborations, or just to say hello.",
       "address": "hello@orpuslabs.com"
     }
   },
   "footer": {
-      "description": "A research and engineering studio exploring robotics, interactive systems, and physical products through design, AI, and hands-on experimentation.",
-    "links": {
-      "explore": [
-        { "label": "Products", "path": "/products" },
-        { "label": "Lab", "path": "/lab" },
-        { "label": "About", "path": "/about" }
-      ],
-      "connect": [
-        { "label": "Follow", "path": "/contact" }
-      ]
-    }
+    "social": [
+      { "name": "Instagram", "url": "#" },
+      { "name": "Facebook", "url": "#" },
+      { "name": "Twitter", "url": "#" },
+      { "name": "LinkedIn", "url": "#" }
+    ],
+    "description": "A research and engineering studio exploring robotics, interactive systems, and physical products through design, AI, and hands-on experimentation.",
+    "companyLinks": [
+      { "label": "About", "path": "/about" },
+      { "label": "Approach", "path": "/about" },
+      { "label": "Work", "path": "/products" },
+      { "label": "Privacy Policy", "path": "#" }
+    ],
+    "services": [
+      "Crafted Websites",
+      "Website Redesign",
+      "eCommerce Design",
+      "CMS & Dynamic Sites"
+    ],
+    "contact": {
+      "email": "contact@orpuslabs.in",
+      "phone": "+91 9361522810",
+      "location": "India - Working globally"
+    },
+    "bottomLinks": [
+      { "label": "Privacy Policy", "path": "#" },
+      { "label": "Terms of Service", "path": "#" }
+    ]
   }
 }
-
